@@ -1,4 +1,5 @@
 import os
+import wave
 import glob
 import time
 import pickle
@@ -8,10 +9,10 @@ import numpy as np
 import tensorflow as tf
 
 # source and destination folders name path
-src = 'data'
+src = 'audiomnist'
 dst = 'logmel'
 
-# source and target kHz
+# source and target sample rate
 source_sr = 48000
 target_sr = 44100
 
