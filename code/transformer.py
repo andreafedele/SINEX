@@ -8,8 +8,9 @@ import numpy as np
 import tensorflow as tf
 
 # source and destination folders name path
-src = 'audiomnist'
-dst = 'logmel'
+path = '../dataset/'
+src = path + 'audiomnist'
+dst = path + 'logmel'
 
 # source and target sample rate
 source_sr = 48000
