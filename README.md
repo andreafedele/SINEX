@@ -1,11 +1,15 @@
 # SINEX
 SINEX implementation to explain Siamese Networks
 
-## Requirements 2 ##
+## Requirements ##
 - python 3.9.7
-- time
-- pickle
+- numpy 1.19.5
+- librosa 0.8.1
+- tensorflow 2.7.0
+- matplotlib 3.5.0
+- skimage 0.18.3
+- copy
 - random
-- librosa
-- numpy as np
-- tensorflow as tf
+- pickle (4.0)?
+- os
+- glob
