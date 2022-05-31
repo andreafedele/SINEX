@@ -4,12 +4,15 @@ from skimage.segmentation import felzenszwalb, slic
 
 class Sinexc:
     def __init__(self, algo, params, shape, alpha, beta):
+        self.configure(algo, params, shape, alpha, beta)
+        self.Helpers = Helpers()
+
+    def configure(self, algo, params, shape, alpha, beta):
         self.algo = felzenszwalb if algo == 'felzenszwalb' else slic # segmentation algorithm
         self.aparams = params # algorithm parameters
         self.shape = shape # input shape
         self.alpha = alpha 
         self.beta = beta
-        self.Helpers = Helpers()
 
     def explain(self, f, x, S):
         E = []
