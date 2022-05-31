@@ -6,3 +6,6 @@ __pycache__/
 
 # Spectrograms
 dataset/logmel
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
