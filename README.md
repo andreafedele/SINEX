@@ -43,7 +43,7 @@ E = sinex.explain(model, x, S)
 Here is an example of visualization of the contribution heatmaps given by the *plot_explanation* function defined in the How To Use jupyter notebook. 
 ![](images/sinex.png)
 
-You can also update *SINEX* segmentation algorithm and its parameters using the *configure* method.
+You can also update *SINEX* segmentation algorithm and its parameters using the *configure* method for further tests.
 
 ```python
 algo = 'slic'
