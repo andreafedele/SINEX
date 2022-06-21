@@ -1,7 +1,8 @@
 # SINEX
-SINEX implementation to explain Siamese Networks.
+This repository contains SINEX algorithm implementation to explain Siamese Networks.
+Please read the report for a global understanding of the project work.
 
-## Repository Content ##
+**Repository Content**
 - [AudioMNIST](https://github.com/soerenab/AudioMNIST) test classes (dataset folder)
 - transofmer.py script (code folder) which transforms the audio wav files into spectrograms 
 - SINEX, SINEXC explainers implementation (code folder)
@@ -10,7 +11,7 @@ SINEX implementation to explain Siamese Networks.
 
 **IMPORTANT NOTE**: you must run transformer.py before using the How To Use jupyter notebook!  
 
-## SINEX Usage ##
+### SINEX Usage ###
 First, import the package.
 
 ```python
@@ -52,8 +53,8 @@ params = {'n_segments':15, 'compactness':10, 'sigma':1, 'start_label':1 }
 sinex.configure(algo, params, shape)
 ```
 
-## SINEXC Usage ##
-*SINEXC* usage is identical to the one described for *SINEX*.
+### SINEXC Usage ###
+*SINEXC* usage is identical to the one described for *SINEX*. <br>
 The only difference is that both the *inizialize* and *configure* methods accepts the additional *alpha* and *beta* parameters. 
 
 ```python
