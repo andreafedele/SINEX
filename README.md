@@ -1,5 +1,5 @@
 # SINEX
-This repository contains SINEX algorithm implementation to explain Siamese Networks.
+This repository contains SINEX algorithm implementation to explain Siamese Networks. <br>
 Please read the report for a global understanding of the project work.
 
 **Repository Content**
