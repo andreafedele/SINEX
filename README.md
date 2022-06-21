@@ -8,8 +8,4 @@ SINEX implementation to explain Siamese Networks
 - tensorflow 2.7.0
 - matplotlib 3.5.0
 - skimage 0.18.3
-- copy
-- random
-- pickle (4.0)?
-- os
-- glob
+- os, blog, copy, random, pickle
