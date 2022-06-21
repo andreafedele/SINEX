@@ -58,8 +58,10 @@ sinex.configure(algo, params, shape)
 The only difference is that both the *inizialize* and *configure* methods accepts the additional *alpha* and *beta* parameters. 
 
 ```python
+# Import Sinexc
 from sinexc import Sinexc
 
+# Set algorithms parameters, input data shape, alpha and beta values
 algo = 'felzenszwalb' # algorithm name
 params = {'scale':50, 'sigma':1.5, 'min_size':150}
 shape = (224, 224, 1) # data input shape
@@ -73,7 +75,7 @@ sinexc = Sinexc(algo, params, shape, alpha, beta)
 E = sinexc.explain(model, x, S)
 ```
 
-## Requirements ##
+### Requirements ###
 - python 3.9.7
 - numpy 1.19.5
 - librosa 0.8.1
