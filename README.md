@@ -1,6 +1,6 @@
 # SINEX
 This repository contains SINEX algorithm implementation to explain Siamese Networks. <br>
-!IMPORTANT: RGB/Grayscale, Time-Series and 3SNN support is currently under rework, the code can be found in rework mach2023 folder.
+IMPORTANT: RGB/Grayscale, Time-Series and 3SNN support is currently under rework, the code can be found in rework mach2023 folder.
 
 **Repository Content**
 - [AudioMNIST](https://github.com/soerenab/AudioMNIST) test classes (dataset folder)
