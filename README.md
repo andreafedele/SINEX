@@ -8,7 +8,7 @@ RGB/Grayscale, Time-Series and 3SNN support is currently under rework, the code 
 - SINEX, SINEXC explainers implementation (code folder)
 - pretrained model (model folder)
 - How To Use Jupyter Notebook
-- Rework code for RGB/GrayScale images, Time-Series and 3SNN (rework mach2023 folder)
+- Rework code for RGB/GrayScale images, Time-Series and 3SNN support (rework mach2023 folder)
 
 **IMPORTANT NOTE**: you must run transformer.py before using the How To Use jupyter notebook!  
 
